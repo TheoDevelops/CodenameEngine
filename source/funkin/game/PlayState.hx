@@ -1256,7 +1256,7 @@ class PlayState extends MusicBeatState
 
 		updateRatingStuff();
 
-		if (controls.PAUSE && startedCountdown && canPause)
+		if (controls.PAUSE && startedCountdown && canPause && generatedMusic)
 			pauseGame();
 
 		if (canAccessDebugMenus) {
